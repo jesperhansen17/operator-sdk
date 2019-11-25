@@ -11,6 +11,7 @@ golangci-lint run --disable-all \
     --enable=nakedret \
     --enable=ineffassign \
     --enable=goconst \
+    --enable=dupl \
 
 ##todo(camilamacedo86): The following checks requires fixes in the code
 # --enable=golint
